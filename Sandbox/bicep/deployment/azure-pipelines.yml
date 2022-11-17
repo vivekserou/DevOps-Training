@@ -23,7 +23,7 @@ stages:
         pool:
           vmImage: "windows-latest"
         variables:
-          - group: "DevOps"
+          - group: "Dev"
         environment: "DEV"
         strategy:
           runOnce:
